@@ -46,8 +46,8 @@
   display: block;
   margin: 0 auto;
   
-  height: 105px;
-  width: 148px;
+  /*max-height: 105px;*/
+  max-width: 148px;
 }
 
 .address {
@@ -68,41 +68,51 @@
 
 
 .cover {
-  min-height: 757px;
+  max-height: 757px;
+  background-image: url("../images/cover.jpg");
+
 }
 
-.cover__image {
+/*.cover__image {
   min-height: 757px;
-}
+}*/
 
 .cover__title {
-  position: fixed;
+  padding: 165px 50px 165px 50px;
+  max-height: 355px;
+  max-width: 1000px;
+  position: absolute;
   z-index: 2;
-  margin: 165px 50px 165px 50px;
   font-size: 100px;
   font-weight: 700;
-  line-height: 115px;
+  letter-spacing: 30%;
   color: #ffffff;
 }
 
 .overlay {
-  width: 100%;
-  height: 100%;
-  opacity: 100%;
-  position: fixed;
+  max-height: 100%;
+  opacity: 50%;
+  position: absolute;
   z-index: 1;
 }
 
 .aligned-text {
   display: block;
+  line-height: 115px;
 }
 
 .aligned-text_center {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
+  line-height: 100px;
 }
 
 .aligned-text_right {
+  display: block;
   text-align: right;
+  line-height: 100px;
 }
 
 .letter-spacing-extended {
