@@ -18,20 +18,37 @@ margin: 92px 24px;
   width: 135px;
 }
 
-/*
 .header__menu {
-
+  grid-column: 1/2;
+  display: block;
 }
 
 .header__links-list {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 26px;
+  padding-right: 41px;
+  font-size: 18.5px;
+  font-weight: normal;
+  line-height: 21.13px;
+  letter-spacing: 2%;
+  text-underline-offset: 5px;
 }
 
 .header__links-list-item {
+  list-style: circle;
 
 }
 
 .header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
 
 }
-*/
+
+.header__link_active {
+  
+}
