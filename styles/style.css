@@ -52,3 +52,23 @@ margin: 92px 24px;
 .header__link_active {
   
 }
+
+
+
+.address {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+}
+
+.header__address {
+  grid-column: 3/4;
+  display: block;
+  justify-items: end;
+  padding-left: 194px;
+  font-weight: normal;
+  line-height: 24.3px;
+  letter-spacing: 2%;
+  text-underline-offset: 4px;
+}
