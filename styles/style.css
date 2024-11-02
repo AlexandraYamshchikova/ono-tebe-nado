@@ -38,7 +38,6 @@ margin: 92px 24px;
 
 .header__links-list-item {
   list-style: circle;
-
 }
 
 .header__links-list-item_no-bullit {
@@ -71,4 +70,17 @@ margin: 92px 24px;
   line-height: 24.3px;
   letter-spacing: 2%;
   text-underline-offset: 4px;
+}
+
+
+
+
+.cover {
+  margin-top: 95px;
+  height: 757px;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  overflow: hidden;
+  background-position: -137px bottom;
+  background-repeat: no-repeat;
 }
