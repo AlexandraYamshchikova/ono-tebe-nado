@@ -77,8 +77,7 @@ margin: 92px 24px;
 
 .cover {
   margin-top: 95px;
-  margin-bottom: 30px;
-  height: 757px;
+  min-height: 757px;
   position: relative;
   z-index: -1;
   background-image: url("../images/cover.jpg");
@@ -174,4 +173,121 @@ margin: 92px 24px;
   font-size: 22px;
   font-weight: normal;
   word-spacing: 1px;
+}
+
+
+
+
+
+.lots {
+margin-top: 178px;
+margin-right: 24px;
+margin-left: 24px;
+/*min-height: 334px; убрать потом
+border: 1px; потом убрать
+border-color: #000000; потом убрать
+border-style: solid; потом убрать*/
+}
+
+.lots__heading {
+  margin-left: 40px;
+  margin-bottom: 26px;
+  padding-left: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.lots__card-list {
+  /*border: 1px; потом убрать
+  border-color: #000000; потом убрать
+  border-style: solid;  потом убрать*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.lots__card-list-item {
+  min-height: 563px;
+  width: 334px;
+  /*border: 1px; потом убрать
+  border-color: #000000; потом убрать
+  border-style: solid; потом убрать*/
+  margin: 0;
+  padding: 48px 40px 50.5px 38px;
+}
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+  position: relative;
+  z-index: -1;
+  background-size: cover;
+  overflow: hidden;
+  background-position: -104px -2px;
+  background-repeat: no-repeat;
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+  position: relative;
+  z-index: -1;
+  background-size: cover;
+  overflow: hidden;
+  background-position: -104px -2px;
+  background-repeat: no-repeat;
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+  position: relative;
+  z-index: -1;
+  background-size: cover;
+  overflow: hidden;
+  background-position: -104px -2px;
+  background-repeat: no-repeat;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;   /* TODO Не работают ссылки*/
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: #ffffff;
+}
+
+.card__title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26.4px;
+}
+
+.card__text {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* TODO Переделать карточку под требования Практикума */
+
+/* TODO Подкрутить стыковку с макетом у лотов */
+
+.lots__look-more-link{
+  display: block;
+  margin-top: 31px;
+  margin-left: 40px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23.48px;
+  text-underline-offset: 4px;
 }
